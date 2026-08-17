@@ -1,0 +1,10 @@
+twig:
+    file_name_pattern: '*.twig'
+    globals:
+        app_version: '%app_version%'
+        locales: '%app_locales%'
+        locale: '%locale%'
+
+when@test:
+    twig:
+        strict_variables: true
