@@ -1,0 +1,21 @@
+# www.robotstxt.org/
+# https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=en
+
+User-agent: Yandex
+Disallow: /*/login
+Disallow: /*/admin
+Disallow: /*/password
+Disallow: /index.php
+Disallow: /index.php/*
+Clean-param: utm
+Clean-param: etext
+
+User-agent: *
+Disallow: /*/login
+Disallow: /*/admin
+Disallow: /*/password
+Disallow: /index.php
+Disallow: /index.php/*
+
+User-agent: MediaPartners-Google
+Allow: /
