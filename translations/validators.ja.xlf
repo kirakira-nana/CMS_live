@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="ja" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="password.mismatch">
+                <source>password.mismatch</source>
+                <target>入力したパスワードが一致しません。</target>
+            </trans-unit>
+            <trans-unit id="agree_terms">
+                <source>agree_terms</source>
+                <target>利用規約に同意してください。</target>
+            </trans-unit>
+            <trans-unit id="user_not_found">
+                <source>user_not_found</source>
+                <target>そのメールアドレスのユーザーは見つかりません。</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
